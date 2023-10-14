@@ -1,0 +1,91 @@
+.Play {
+    text-align: center;
+  }
+  
+  .at {
+    padding: 0;
+    margin: 5px;
+  }
+  
+  .boardImg {
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    -user-drag: none;
+  }
+  
+  .chessBoard {
+    position: fixed;
+    z-index: 0;
+    -webkit-box-shadow: 1px 1px 0px 19px #332a00;
+    box-shadow: 1px 1px 0px 19px #332a00;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  
+  .piece {
+    position: fixed;
+  }
+  
+  .piece img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -k-html-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    /* user-drag: none; */
+  }
+  
+  .resetButton {
+    /* position: fixed;
+    top:120px;
+    padding: 10px 20px;
+    margin: 5px 0px 5px 5px;
+    left: 795px;
+    color: #f5de9d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #73582f; */
+    position: fixed;
+    margin-left: 430px;
+    margin-top: 500px;
+    color: #f5de9d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #73582f;
+  }
+  
+  .chessBoard p {
+    left: -20px;
+    padding: 10px 20px;
+    margin: 3px;
+    color: #060606;
+    border: 3px solid #9a9a9a;
+  }
+
+  .ar-start{
+    position: fixed;
+    margin-left: 800px;
+    margin-top: 50px;
+    color: #f5de9d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #73582f;
+  }
+  
+  .ar-stop{
+    position: fixed;
+    margin-left: 800px;
+    margin-top: 125px;
+    color: #f5de9d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #73582f;
+  }
+
+  .game-name{
+    position: fixed;
+    margin-left: 1340px;
+    margin-top: 50px;
+    font-size: 30px;
+  }

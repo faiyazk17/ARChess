@@ -1,0 +1,38 @@
+/* home.css */
+
+/* Reset default styles for the list and anchor tags */
+  .home {
+    position: relative; /* Make the .home div positioned relatively */
+    z-index: 0; /* Set z-index to 0 to ensure it's behind the navbar */
+    background-image: url('../../../assets/Background\ Image.jpeg'); /* Replace with the path to your JPEG image */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image */
+    height: 100vh; /* Set the height to cover the entire viewport height */
+    width: 100%; /* Set the width to cover the entire viewport width */
+    margin: 0; /* Remove any margins */
+    padding: 0; /* Remove any paddings */
+  
+}
+  
+  .Second-Title {
+    margin-top: 100px; /* Add margin to move the h1 down to make space for the navbar */
+    margin-left: 50px;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Subtitle {
+    font-style: italic;
+    margin-left: 50px;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Remove scrolling on the home screen */
+body, html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+      
+  }

@@ -1,0 +1,41 @@
+/* navbar.module.css */
+
+/* Reset default styles for the list and anchor tags */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-flex;
+    margin-right: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title {
+    font-size: largest;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Style the navigation bar */
+  .navbar {
+    /* background-color: #f2f2f2; */
+    padding: 0px 40px; /* Increase the padding to make the navbar taller */
+    font-size: 30px; /* Increase the font size for larger text */
+    background-color: rgba(242, 242, 242, 0.8); /* Set the background color with alpha (opacity) */
+
+  }
+  
+  .navlinks {
+    display: flex; /* Change to display: flex to apply align-items */
+    justify-content: right; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+  }

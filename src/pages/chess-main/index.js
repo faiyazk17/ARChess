@@ -1,0 +1,1 @@
+export { default as ChessMain } from './chessmain/ChessMain';

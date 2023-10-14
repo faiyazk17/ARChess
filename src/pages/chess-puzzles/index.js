@@ -1,0 +1,1 @@
+export { default as Puzzles } from './puzzles/Puzzles';
