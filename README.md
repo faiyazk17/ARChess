@@ -1,3 +1,7 @@
+# ARChess
+Web-based chess simulation that incorporates augmented reality by enabling users to compete using hand gestures when camera is enabled.\
+Users can simply pinch and drop pieces using their hands as the controller.
+
 # Getting Started with ARChess
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
